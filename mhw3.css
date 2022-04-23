@@ -45,18 +45,22 @@ nav img{
     width: 20%;
 }
 
-#links a{
+#links a, #covid{
     margin: 15px;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     font-weight: bold;
     color: white;
     text-decoration: underline;
     cursor: pointer;
 }
 
-#links a:hover{
+#links a, #covid:hover{
     font-weight: lighter;
+}
+#covid {
+    z-index: 1;
+    margin: 0;
 }
 header h1{
     font-size: 3em;
@@ -79,7 +83,6 @@ header h1 em{
     border-radius: 100px;
     font-size: .5em;
     cursor: pointer;
-
 }
 
 /*a.oval:hover {
